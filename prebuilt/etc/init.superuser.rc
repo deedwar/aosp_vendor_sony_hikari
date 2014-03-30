@@ -1,0 +1,6 @@
+# su daemon
+service su_daemon system/xbin/daemonsu --daemon
+    oneshot
+
+#   Start su
+    start su_daemon
